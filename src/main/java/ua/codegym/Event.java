@@ -35,8 +35,8 @@ public enum Event {
     public Event next(Map<Event, EventHandler> handlers, int asciiInt) {
       if (asciiInt == -1) return ERROR;
       if (asciiInt == 62) return START_ELEMENT;
-      char handler = (char) asciiInt;
-      handlers.get(this).handle(String.valueOf(handler));
+      //char handler = (char) asciiInt;
+      //handlers.get(this).handle(String.valueOf(handler));
       return END_ELEMENT;
     }
   }, ERROR {

@@ -25,6 +25,5 @@ public class XmlParser implements Parser{
       event = event.next(handlers,tmp);
 
     }
-    //event = Event.ERROR;
   }
 }
