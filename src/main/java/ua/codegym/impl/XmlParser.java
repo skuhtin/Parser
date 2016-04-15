@@ -23,8 +23,8 @@ public class XmlParser implements Parser{
     while (in.available() > 0) {
       int tmp = in.read();
       event = event.next(handlers,tmp);
-      //event.next(handlers,tmp);
+
     }
-    event = Event.ERROR;
+    //event = Event.ERROR;
   }
 }
