@@ -17,7 +17,7 @@ public class XmlParser implements Parser{
     this.handlers = handlers;
   }
 
-  //@Override
+  @Override
   public void parse(InputStream in) throws IOException{
     Event event = Event.START_ELEMENT;
     int countLineSymb = 0;
