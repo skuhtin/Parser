@@ -9,7 +9,7 @@ import java.io.InputStream;
 import java.util.Map;
 
 //wwwwwww
-/wwwwred
+//wwwwred
 
 public class XmlParser implements Parser{
 
