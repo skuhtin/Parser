@@ -8,7 +8,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Map;
 
-//bbbbbbbbbbb
+//wwwwwww
+/wwwwred
 
 public class XmlParser implements Parser{
 
